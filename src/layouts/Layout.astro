@@ -21,8 +21,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Astroship"
-  : "Astroship - Starter Template for Astro with Tailwind CSS";
+  ? title + " | " + "Xclusive"
+  : "RJB Xclusive - RJB Digital Company- Where Creativity Meets Strategy ";
 ---
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="RJB Xclusive is a team of experts in web and mobile app development, digital marketing, and web 3.0 solutions. Our goal is to help businesses in Nigeria, Africa and across the world take advantage of the latest technology to enhance their online presence and digitize their operations."
       canonical={canonicalURL}
       twitter={{
         creator: "@surjithctly",
@@ -47,11 +47,11 @@ const makeTitle = title
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: `RJB Xclusive - RJB Digital Company`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "RJB Digital Company Homepage Screenshot",
         },
       }}
     />
